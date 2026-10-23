@@ -1,13 +1,16 @@
 # Medical-Insurance-Cost-Prediction
-# Medical Insurance Cost Prediction
 
 ## Project Overview
-A machine learning project that predicts medical insurance costs based on personal and health-related factors.
+The Medical Insurance Cost Prediction project uses machine learning to estimate medical insurance charges based on customer information such as age, BMI, smoking status, gender, number of children, and region.
+
+The objective is to analyze insurance data, identify important factors affecting costs, and develop a predictive model using Python and Scikit-learn.
 
 ## Technologies Used
 - Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 - Scikit-learn
 - Joblib
 - Streamlit (if used in your application)
@@ -20,6 +23,7 @@ A machine learning project that predicts medical insurance costs based on person
 - Model saving and loading
 
 ## Input Features
+The dataset contains medical insurance information, potentially including:
 - Age
 - Gender
 - BMI
@@ -27,6 +31,19 @@ A machine learning project that predicts medical insurance costs based on person
 - Smoking Status
 - Region
 
+##Project Structure
+
+Medical-Insurance-Cost-Prediction/
+│
+├── app.py
+├── insurance.csv
+├── model.pkl
+├── feature_columns.pkl
+├── requirements.txt
+├── README.md
+└── notebooks/
+    └── EDA.ipynb
+    
 ## Installation
 
 ```bash
@@ -42,6 +59,5 @@ streamlit run app.py
 ## Output
 Predicts estimated medical insurance costs based on user inputs.
 
-## Author
-Krushil Sutariya
+
 
