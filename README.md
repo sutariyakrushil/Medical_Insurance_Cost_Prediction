@@ -34,15 +34,13 @@ The dataset contains medical insurance information, potentially including:
 ##Project Structure
 
 Medical-Insurance-Cost-Prediction/
-│
-├── app.py
-├── insurance.csv
-├── model.pkl
-├── feature_columns.pkl
-├── requirements.txt
-├── README.md
-└── notebooks/
-    └── EDA.ipynb
+
+- app.py
+- insurance.csv
+- model.pkl
+- feature_columns.pkl
+- requirements.txt
+- README.md
     
 ## Installation
 
