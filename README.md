@@ -1,4 +1,4 @@
-# Medical-Insurance-Cost-Prediction
+# Medical_Insurance_Cost_Prediction
 
 ## Project Overview
 The Medical Insurance Cost Prediction project uses machine learning to estimate medical insurance charges based on customer information such as age, BMI, smoking status, gender, number of children, and region.
