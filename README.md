@@ -1,23 +1,47 @@
 # Medical-Insurance-Cost-Prediction
-Medical Insurance Cost Prediction
-A simple Streamlit app that estimates annual medical insurance charges using a trained machine-learning model.
-Features
-- Enter age, sex, BMI, number of children, smoking status, and region.
-- Predict estimated annual insurance charges.
-- Compare the prediction with reference values in a bar chart.
-Requirements
-Python 3.9+ recommended.
+# Medical Insurance Cost Prediction
 
-Install the required packages:
-pip install streamlit pandas numpy joblib scikit-learn
-Run the App
-Keep app.py, insurance_model.pkl, and model_features.pkl in the same folder, then run:
+## Project Overview
+A machine learning project that predicts medical insurance costs based on personal and health-related factors.
+
+## Technologies Used
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Joblib
+- Streamlit (if used in your application)
+
+## Features
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Machine learning model training
+- Insurance cost prediction
+- Model saving and loading
+
+## Input Features
+- Age
+- Gender
+- BMI
+- Number of Children
+- Smoking Status
+- Region
+
+## Installation
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn joblib streamlit
+```
+
+## Run the Project
+
+```bash
 streamlit run app.py
-Files
-- app.py — Streamlit application.
-- insurance_model.pkl — trained model.
-- model_features.pkl — model input feature names.
-- medical_insurance.csv — dataset.
-- project.ipynb — notebook for project exploration/model development.
-Note
-Predictions are estimates for learning/demo purposes only, not professional insurance or medical advice.
+```
+
+## Output
+Predicts estimated medical insurance costs based on user inputs.
+
+## Author
+Krushil Sutariya
+
